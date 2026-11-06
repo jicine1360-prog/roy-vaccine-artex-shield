@@ -1,0 +1,8 @@
+{
+  "watch_logs": ["/var/log/nginx/access.log"],
+  "whitelist_prefixes": ["127.", "10.", "192.168.", "172.16.", "100."],
+  "block_log": "/var/log/roy-guard/guard.log",
+  "telegram_token": "",
+  "telegram_chat_id": "",
+  "_설명": "watch_logs=감시할 접근로그, whitelist_prefixes=절대 차단 금지 대역, telegram 비워두면 알림 없이 차단만"
+}
